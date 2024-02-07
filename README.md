@@ -37,4 +37,4 @@ If the project does not run then you should run the following in the console of 
 - a footer that is displayed on all web pages. It has links to the search page and legal page.
 
 ## Screenshots
-
+<img src="Screenshot-blog1.png" />
