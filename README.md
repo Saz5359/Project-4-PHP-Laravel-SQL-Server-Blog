@@ -13,6 +13,7 @@ After learning PHP and MySql I accepted this task as I was confident and motivat
 - Download and install Composer if you don't already have it: https://getcomposer.org/doc/00-intro.md.
 - Install Laravel with the following command from a terminal: composer global requires Laravel/installer.
 - Download Microsoft SQL Server if you don't already have it: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+- Download mysql shell and console on your computer
 
 - Clone this Github repository into a directory of your choice.
 - Run composer install in the project repository console
@@ -22,11 +23,16 @@ If the project does not run then you should run the following in the console of 
 - composer create-project laravel/laravel example-app
 - replace the public, resources, routes files, and the .env file with the ones in the cloned repository.
 - Run php artisan serve in the console This will start the server and you can access your Laravel application at http://localhost:8000/ in your web browser.
+- I have added a MYSQL backup file for the project and to use it you should do the following in your console:
+   + mysql -u root -p[root_password] [database_name] < dumpfilename.sql
+   + Password and database name can be found in the .env file.
     
 ## Features
 
 - Designed an appropriate database for the project using normalization.
 - Database stores articles, their categories, and their tags.
+  ##### ERD diagram for database
+  <img src="ERD Diagram.drawio" />
 - The home page features the latest 5 articles each article title is a link to its appropriate article page.
 - article view page which displays the selected article’s title, content, creation date, category, and tags.
 -  category view page which lists all articles of a selected category.
@@ -37,4 +43,22 @@ If the project does not run then you should run the following in the console of 
 - a footer that is displayed on all web pages. It has links to the search page and legal page.
 
 ## Screenshots
+#### Home Page
 <img src="Screenshot-blog1.png" />
+<img src="Screenshot-blog2.png" />
+<img src="Screenshot-blog3.png" />
+
+#### About page
+<img src="Screenshot-blog-about.png" />
+
+#### Article page
+<img src="Screenshot-blog-article-view.png" />
+
+#### Catagory page
+<img src="Screenshot-blog-catagory-view.png" />
+
+#### Tag page
+<img src="Screenshot-blog-tag-view.png" />
+
+#### search page
+<img src="Screenshot-search-page.png" />
