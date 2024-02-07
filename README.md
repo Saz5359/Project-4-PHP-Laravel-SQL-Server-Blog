@@ -31,8 +31,7 @@ If the project does not run then you should run the following in the console of 
 
 - Designed an appropriate database for the project using normalization.
 - Database stores articles, their categories, and their tags.
-  ##### ERD diagram for database
-  <img src="ERD Diagram.drawio" />
+- ERD diagram available in GitHub page
 - The home page features the latest 5 articles each article title is a link to its appropriate article page.
 - article view page which displays the selected article’s title, content, creation date, category, and tags.
 -  category view page which lists all articles of a selected category.
