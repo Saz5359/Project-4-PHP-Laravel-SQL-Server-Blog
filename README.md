@@ -18,7 +18,9 @@ After learning PHP and MySql I accepted this task as I was confident and motivat
 - Clone this Github repository into a directory of your choice.
 - Run composer install in the project repository console
 - Rename the .env.example file to .env and change the DB-info to match the following
-  <img src="" />
+ 
+  <img src="database.png" />
+  
 - Run php artisan migrate in the project repository console
 - Run php artisan key:generate in the project repository console
 - Run php artisan storage:link in the project repository console
